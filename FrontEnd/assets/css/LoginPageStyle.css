@@ -159,6 +159,19 @@
 
 #btnSignIn:active {
     box-shadow: none;
-
     background: linear-gradient(93deg, #802BB1 0%, #323232 100%);
 }
+
+.underButtonTextStyle {
+    color: #4C495D;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.9px;
+}
+
+#signUpDescriptionTextStyle,
+# {}
