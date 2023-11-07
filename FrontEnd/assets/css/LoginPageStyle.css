@@ -76,6 +76,10 @@
     z-index: 2;
 }
 
+#jeepImg:hover {
+    margin-left: calc(10% + 2px);
+}
+
 #welcomeBackFontStyle {
     color: #2D283D;
     font-family: Smooch Sans;
@@ -151,7 +155,6 @@
     border: none;
     background: linear-gradient(93deg, #802BB1 0%, #323232 100%);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: 0.3s;
 }
 
 #btnSignIn:hover {
