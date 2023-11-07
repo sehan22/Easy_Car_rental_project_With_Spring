@@ -95,6 +95,8 @@
     font-weight: 300;
     line-height: normal;
     letter-spacing: 1.08px;
+    width: 70%;
+    margin: auto;
 }
 
 .loginInput {
@@ -134,7 +136,7 @@
 #forgotPasswordTextStyle {
     color: #4C495D;
     font-family: Roboto;
-    font-size: 10px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -173,5 +175,20 @@
     letter-spacing: 0.9px;
 }
 
+.underButtonText2Style {
+    color: #4C495D;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.9px;
+}
+
 #signUpDescriptionTextStyle,
-# {}
+#lnlSignUpTextStyle {
+    position: relative;
+    top: -15px;
+    display: inline-block;
+}
