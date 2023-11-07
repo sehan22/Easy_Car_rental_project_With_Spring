@@ -10,6 +10,17 @@
     box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.25);
 }
 
+.leftSideContainer {
+    height: 600px;
+    width: 45%;
+    background: linear-gradient(180deg, #802BB1 0%, #26242E 100%);
+}
+
+.rightSideContainer {
+    height: 600px;
+    width: 55%;
+}
+
 #easyCarTextStyle {
     color: #D1D7E0;
     font-family: Smooch Sans;
@@ -57,20 +68,97 @@
     margin-top: 2%;
 }
 
-.leftSideContainer {
-    height: 600px;
-    width: 45%;
-    background: linear-gradient(180deg, #802BB1 0%, #26242E 100%);
-}
-
-.rightSideContainer {
-    height: 600px;
-    width: 55%;
-    z-index: -1;
-}
-
 #jeepImg {
     margin-top: -10%;
     margin-left: 10%;
     width: 25rem;
+    position: relative;
+    z-index: 2;
+}
+
+#welcomeBackFontStyle {
+    color: #2D283D;
+    font-family: Smooch Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 2.7px;
+}
+
+#shortDescriptionTextStyle {
+    color: #4C495D;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 1.08px;
+}
+
+.loginInput {
+    width: 350px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 1px solid #6D6D7E;
+    background: #FFF;
+    color: #4C495D;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.9px;
+}
+
+.loginInput::placeholder {
+    color: #4C495D;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.9px;
+}
+
+.loginInput:focus {
+    box-shadow: none;
+}
+
+.loginInput:hover {
+    box-shadow: none;
+}
+
+#forgotPasswordTextStyle {
+    color: #4C495D;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+#btnSignIn {
+    width: 350px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    border: none;
+    background: linear-gradient(93deg, #802BB1 0%, #323232 100%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+#btnSignIn:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(93deg, #26242E 0%, #802BB0 100%);
+    transform: scale(1.01);
+}
+
+#btnSignIn:active {
+    box-shadow: none;
+
+    background: linear-gradient(93deg, #802BB1 0%, #323232 100%);
 }
