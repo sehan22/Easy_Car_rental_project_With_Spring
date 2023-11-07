@@ -1,0 +1,13 @@
+.LoginPageBody {
+    background: #26242E;
+}
+
+.loginFormContainer {
+    width: 50rem;
+    box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.leftSideContainer {
+    background: linear-gradient(180deg, #802BB1 0%, #26242E 100%);
+}
