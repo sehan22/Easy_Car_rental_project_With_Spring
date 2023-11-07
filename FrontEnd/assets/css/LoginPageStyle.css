@@ -31,6 +31,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin: -8% 0 0 10%;
 
 }
 
@@ -42,6 +43,18 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.8px;
+    margin: 0 0 0 10%;
+}
+
+.carRentalTextStyle {
+    color: #D1D7E0;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    margin-top: 2%;
 }
 
 .leftSideContainer {
@@ -57,5 +70,7 @@
 }
 
 #jeepImg {
+    margin-top: -10%;
+    margin-left: 10%;
     width: 25rem;
 }
