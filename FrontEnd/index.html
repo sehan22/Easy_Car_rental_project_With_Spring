@@ -6,29 +6,9 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/indexPageStyle.css">
     <style>
-        .input {
-            font-weight: 500;
-            font-size: 14px;
-            height: 40px;
-            border-radius: 10px;
-            padding-left: 10px;
-            border: none;
-            border-bottom: 1px solid #e5e5e5;
-            outline: none;
-        }
-
-        .input:hover {
-            border-bottom: 1px solid #802BB1;
-            -webkit-transition: 0.1s;
-            transition: 0.5s;
-            box-shadow: none;
-        }
-
-        .input:focus {
-            border-bottom: 1px solid #6941c6;
-            -webkit-transition: 0.1s;
-            transition: 0.5s;
-            box-shadow: none;
+        .mainBannerDiv {
+            background: url("assets/images/indexpage/banner.png");
+            background-size: cover;
         }
     </style>
 </head>
@@ -78,8 +58,40 @@
     <div class="container-fluid mainBannerDiv">
         <div class="container w-100">
             <div class="row w-100 justify-content-center m-auto rowBannerDiv">
-                <div class="w-50 col-lg-6"></div>
-                <div class="w-50 col-lg-6"></div>
+                <div class="col-lg-5 bg-black">
+                    <h6>Embarking Fresh Journeys</h6>
+                    <h1>Navigate Life's </h1>
+                    <h1>Highways</h1>
+                    <h4>with Our Hassle-FreeCar Rentals</h4>
+                    <h6>Unleash the Freedom of Your Journey: Life's Highways
+                        Await! Cruise through every twist and turn with the perfect
+                        set of wheels. Explore, Discover, and Embrace the open
+                        road with our hassle-free car rentals. Your adventure
+                        begins here!
+                    </h6>
+
+                    <hr>
+
+                    <button class="btn btn-success">
+                        Find a Car
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                            <path d="M8.75 15H21.25M21.25 15L16.25 10M21.25 15L16.25 20" stroke="white" stroke-width="2"
+                                  stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+
+                    <button class="btn">
+                        Lear More
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                            <path d="M8.75 15H21.25M21.25 15L16.25 10M21.25 15L16.25 20" stroke="white" stroke-width="2"
+                                  stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="col-lg-7 bg-dark">
+                    <img class="imgBannerCar" src="assets/images/indexpage/bannerCar.png" alt="">
+                </div>
             </div>
         </div>
     </div>
