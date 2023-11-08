@@ -1,0 +1,18 @@
+.navBarCustom {
+    /*background: linear-gradient(270deg, #26242E 0%, #562874 47.4%, #26242E 100%);*/
+    border: 1px solid black;
+}
+
+.mainBannerDiv {
+    background: linear-gradient(90deg, #26242E 0%, #562874 48.96%, #26242E 100%);
+}
+
+.rowBannerDiv {
+    padding-top: 5.5%;
+    height: 85vh;
+}
+
+#navbarSupportedContent ul li a {
+    font-size: 20px;
+    font-weight: 400;
+}
