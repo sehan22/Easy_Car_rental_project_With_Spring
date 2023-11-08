@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
+
 .navBarCustom {
     /*background: linear-gradient(270deg, #26242E 0%, #562874 47.4%, #26242E 100%);*/
     /*border: 1px solid black;*/
@@ -33,4 +35,62 @@
 
 .imgBannerCar {
     width: 40vw;
+}
+
+#bannerText1 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.2px;
+}
+
+#bannerText2 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 5.4px;
+}
+
+#bannerText3 {
+    color: transparent;
+    font-family: Roboto;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 14.25px;
+    -webkit-text-stroke: 2px #ffffff;
+}
+
+#bannerText4 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.48px;
+}
+
+#bannerText5 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 1.2px;
+}
+
+#btnFindACar {
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #26242E 0%, #552873 51.04%, #26242E 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
