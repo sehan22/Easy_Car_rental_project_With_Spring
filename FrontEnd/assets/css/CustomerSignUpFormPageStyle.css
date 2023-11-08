@@ -6,10 +6,20 @@
 main {
     background: linear-gradient(180deg, #802BB1 0%, #26242E 100%);
     height: 100vh;
+}
+
+#containerFluidCustomerForm {
+    padding-top: 2.2%;
+}
+
+#containerCustomerForm {
+    height: 90vh;
+    width: 40vw;
     box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.25);
 }
 
 .custum-file-upload {
+    object-fit: scale-down;
     width: 100%;
     margin: 0;
     height: 200px;
@@ -24,6 +34,10 @@ main {
     padding: 1.5rem;
     border-radius: 10px;
     box-shadow: 0px 48px 35px -48px rgba(0, 0, 0, 0.1);
+}
+
+.custum-file-upload:hover {
+    border: 2px dashed #afafaf;
 }
 
 .custum-file-upload .icon {
@@ -41,6 +55,8 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: 900;
+    font-size: 16px;
 }
 
 .custum-file-upload .text span {
@@ -50,4 +66,28 @@ main {
 
 .custum-file-upload input {
     display: none;
+}
+
+#btnCustomerRegistrationFormCancel {
+    box-shadow: 0px 48px 35px -48px rgba(0, 0, 0, 0.1);
+}
+
+#btnCustomerRegistrationFormSave {
+    box-shadow: 0px 48px 35px -48px rgba(0, 0, 0, 0.1);
+}
+
+#btnCustomerRegistrationFormCancel:focus {
+    box-shadow: none;
+}
+
+#btnCustomerRegistrationFormSave:focus {
+    box-shadow: none;
+}
+
+#btnCustomerRegistrationFormCancel:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+#btnCustomerRegistrationFormSave:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
 }

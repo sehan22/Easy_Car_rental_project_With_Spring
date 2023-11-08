@@ -9,15 +9,21 @@
 
     <title>Registration | Easy Car Rental Pvt Ltd</title>
 </head>
+<body>
 <main>
-    <div class="container-fluid" style="padding-top: 3.5%">
-        <div class="container rounded-2 m-auto bg-light" style="height: 85vh; width: 35vw;">
-            <form class="row p-3">
-                <h6 class="text-center">Create Your Account..</h6>
+    <div class="container-fluid" id="containerFluidCustomerForm">
+        <div class="container rounded-2 m-auto bg-light" id="containerCustomerForm">
+            <form class="row ps-4 pt-3 pb-3 pe-4 h-100 rounded-3">
+                <h6 class="text-start">Create Your Account..</h6>
 
-                <div class="col-12 justify-content-center">
+                <div class="col-8 justify-content-center">
                     <label></label>
                     <input class="input form-control" type="text" name="" placeholder="Full Name">
+                </div>
+
+                <div class="col-4 justify-content-center">
+                    <label></label>
+                    <input class="input form-control" type="text" name="" placeholder="Gender">
                 </div>
 
                 <div class="col-6 justify-content-center">
@@ -46,9 +52,9 @@
                 </div>
 
                 <div class="col-6 mt-4 justify-content-center">
-                    <label class="custum-file-upload" for="nicNumber">
+                    <label class="custum-file-upload" id="nicImgView" for="nicImg">
                         <div class="icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="" viewBox="0 0 24 24">
+                            <svg xmlns="http://www.w3.org/2000/svg" id="nicIcon" fill="" viewBox="0 0 24 24">
                                 <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
                                 <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
                                 <g id="SVGRepo_iconCarrier">
@@ -59,16 +65,17 @@
                             </svg>
                         </div>
                         <div class="text">
-                            <span>Click to upload NIC image</span>
+                            <span id="nicImgDescription">Click to upload NIC image</span>
                         </div>
-                        <input type="file" id="nicNumber">
+                        <input type="file" id="nicImg">
                     </label>
                 </div>
 
                 <div class="col-6 mt-4 justify-content-center">
-                    <label class="custum-file-upload" for="licenseNumber">
+                    <label class="custum-file-upload" id="licenseImgView" for="licenseImg">
+                        <img id="previewImage" alt="Preview Image">
                         <div class="icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="" viewBox="0 0 24 24">
+                            <svg xmlns="http://www.w3.org/2000/svg" id="licenseIcon" fill="" viewBox="0 0 24 24">
                                 <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
                                 <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
                                 <g id="SVGRepo_iconCarrier">
@@ -79,10 +86,35 @@
                             </svg>
                         </div>
                         <div class="text">
-                            <span>Click to upload License image</span>
+                            <span id="licenseImgDescription">Click to upload License image</span>
                         </div>
-                        <input type="file" id="licenseNumber">
+                        <input type="file" id="licenseImg">
                     </label>
+                </div>
+
+                <div class="col-12 mt-4">
+                    <hr class="w-75 m-auto">
+                </div>
+
+                <div class="col-6 justify-content-center">
+                    <label></label>
+                    <input class="input form-control" type="text" name="" placeholder="UserName">
+                </div>
+
+                <div class="col-6 justify-content-center">
+                    <label></label>
+                    <input class="input form-control" type="text" name="" placeholder="Password">
+                </div>
+
+                <div class="col-12 mt-4">
+                    <div class="row">
+                        <button class="btn m-auto btn-secondary" id="btnCustomerRegistrationFormCancel" type="button">
+                            Clear
+                        </button>
+                        <button class="btn mt-2 btn-success" id="btnCustomerRegistrationFormSave" type="button">
+                            Register
+                        </button>
+                    </div>
                 </div>
             </form>
         </div>
@@ -92,13 +124,6 @@
 <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
 <script src="../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="../assets/bootstrap/js/jquery-3.7.0.min.js"></script>
-
-<!--<script>
-    handleItemClick()
-
-    function handleItemClick(item) {
-        $('.dropdown-toggle').text(item);
-    }
-</script>-->
+<script src="../controller/CustomerRegistrationFormPageController.js"></script>
 </body>
 </html>
