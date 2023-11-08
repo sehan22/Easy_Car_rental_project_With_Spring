@@ -50,42 +50,48 @@
 #bannerText2 {
     color: #FFF;
     font-family: Roboto;
-    font-size: 90px;
+    font-size: 80px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: normal;
     letter-spacing: 5.4px;
+    width: 35rem;
+
+    margin-top: -20px;
 }
 
 #bannerText3 {
     color: transparent;
     font-family: Roboto;
-    font-size: 95px;
+    font-size: 85px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: normal;
     letter-spacing: 14.25px;
     -webkit-text-stroke: 2px #ffffff;
+    margin-top: -20px;
 }
 
 #bannerText4 {
     color: #FFF;
     font-family: Roboto;
-    font-size: 37px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    letter-spacing: 1.48px;
+    letter-spacing: 3.48px;
+    width: 25rem;
 }
 
 #bannerText5 {
     color: #FFF;
     font-family: Roboto;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
     letter-spacing: 1.2px;
+    width: 26rem;
 }
 
 #btnFindACar {
