@@ -100,3 +100,13 @@
     background: linear-gradient(90deg, #26242E 0%, #552873 51.04%, #26242E 100%);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
+
+#bannerDescription {
+    border-radius: 5px;
+    background: #FAFAFA;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.17);
+
+    height: 20vh;
+
+    margin-top: -3.5%;
+}
