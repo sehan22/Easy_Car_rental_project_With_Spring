@@ -34,7 +34,12 @@
 }
 
 .imgBannerCar {
-    width: 40vw;
+    margin-left: -5%;
+    width: 42vw;
+}
+
+#colFirst {
+    margin-top: -5%;
 }
 
 #bannerText1 {
@@ -42,19 +47,21 @@
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: normal;
     letter-spacing: 1.2px;
+
+    margin-left: -1.5vw;
 }
 
 #bannerText2 {
     color: #FFF;
     font-family: Roboto;
-    font-size: 80px;
+    font-size: 70px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 5.4px;
+    letter-spacing: 12.7px;
     width: 35rem;
 
     margin-top: -20px;
@@ -90,23 +97,22 @@
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    letter-spacing: 1.2px;
-    width: 26rem;
+    letter-spacing: 0.9px;
 }
 
 #btnFindACar {
     padding: 10px 30px;
-    border-radius: 5px;
+    border-radius: 10px;
     background: linear-gradient(90deg, #26242E 0%, #552873 51.04%, #26242E 100%);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 #bannerDescription {
-    border-radius: 5px;
+    border-radius: 15px;
     background: #FAFAFA;
     box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.17);
 
-    height: 20vh;
+    height: 18vh;
 
     margin-top: -3.5%;
 }
