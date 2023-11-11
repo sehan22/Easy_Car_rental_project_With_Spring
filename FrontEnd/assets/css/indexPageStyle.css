@@ -111,8 +111,32 @@
     border-radius: 15px;
     background: #FAFAFA;
     box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.17);
-
     height: 18vh;
 
     margin-top: -3.5%;
+}
+
+#bannerDescription h5 {
+    color: #26242E;
+    font-family: Roboto;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -3px;
+}
+
+#bannerDescription h6 {
+    color: #494753;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-top: -15%;
+}
+
+#bannerDescription hr {
+    transform: rotate(90deg);
 }
