@@ -140,3 +140,59 @@
 #bannerDescription hr {
     transform: rotate(90deg);
 }
+
+/*about us*/
+.aboutUsContainer {
+    margin-top: 100px;
+}
+
+.aboutTopicTxt {
+    color: #2D283D;
+    color: #2D283D;
+    font-family: Smooch Sans;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6px;
+}
+
+.aboutDescriptionTxt {
+    color: #2D283D;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    letter-spacing: 1.2px;
+}
+
+.aboutDescriptionTxtList {
+    color: #2D283D;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.2px;
+}
+
+.aboutDescriptionTxtList li {
+    margin-bottom: 10px;
+}
+
+.aboutDescriptionTxtSocialMediaList li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.aboutDescriptionTxtSocialMediaList i {
+    font-size: 30px;
+}
+
+#btnContactUs {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #26242E 0%, #552873 51.04%, #26242E 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
