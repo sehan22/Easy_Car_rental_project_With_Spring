@@ -143,34 +143,51 @@
 
 
 /*Company Details Container*/
-.companyDetailsContainer div div {
+.companyDetailsContainer > div > div {
     height: 300px;
     width: 300px;
-    border: 1px solid #E9E9E9;
+    border: 1px solid #ececec;
     border-radius: 10px;
     transition: 1s;
 }
 
-.companyDetailsContainer div div:hover {
-    border: transparent;
+.companyDetailsContainer > div > div:hover {
+    border: 1px solid transparent;
     box-shadow: 0px 20px 80px -15px rgba(0, 0, 0, 0.25);
 }
 
-.companyDetailsContainer div div div {
-    width: 135px;
-    height: 135px;
-    fill: rgba(35, 207, 53, 0.19);
-    border: transparent;
+.companyDetailsContainer > div > div > div > div {
+    width: 100px;
+    height: 100px;
+    background: rgba(35, 207, 53, 0.19);;
+    border-radius: 80px;
 }
 
+.companyDetailsContainer > div > div > div > div > img {
+    object-fit: scale-down;
+    mix-blend-mode: difference;
+}
 
+.companyDetailsContainer > div > div > div > h5 {
+    color: #26242E;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.68px;
+}
 
-
-
-
-
-
-
+.companyDetailsContainer > div > div > div > h6 {
+    color: #5E5A6D;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 1.32px;
+}
 
 
 /*about us*/
