@@ -158,8 +158,9 @@
 }
 
 .companyDetailsContainer > div > div > div > div {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
+    background: rgba(191, 215, 193, 0.19);
     border-radius: 80px;
 }
 
@@ -170,7 +171,7 @@
 .companyDetailsContainer > div > div > div > h5 {
     color: #26242E;
     font-family: Roboto;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -186,6 +187,7 @@
     font-weight: 300;
     line-height: normal;
     letter-spacing: 1.32px;
+    width: 100%;
 }
 
 
