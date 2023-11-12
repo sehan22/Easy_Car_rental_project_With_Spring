@@ -191,6 +191,18 @@
 }
 
 
+/*carDescriptionContainer*/
+
+#carDescriptionContainer {
+    height: 25vh;
+}
+
+#carDescriptionContainer > img {
+    object-fit: cover;
+}
+
+
+
 /*about us*/
 .aboutUsContainer {
     margin-top: 100px;
