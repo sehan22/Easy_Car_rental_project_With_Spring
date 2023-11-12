@@ -153,19 +153,18 @@
 
 .companyDetailsContainer > div > div:hover {
     border: 1px solid transparent;
+    transition: 0.1s;
     box-shadow: 0px 20px 80px -15px rgba(0, 0, 0, 0.25);
 }
 
 .companyDetailsContainer > div > div > div > div {
     width: 100px;
     height: 100px;
-    background: rgba(35, 207, 53, 0.19);;
     border-radius: 80px;
 }
 
 .companyDetailsContainer > div > div > div > div > img {
     object-fit: scale-down;
-    mix-blend-mode: difference;
 }
 
 .companyDetailsContainer > div > div > div > h5 {
