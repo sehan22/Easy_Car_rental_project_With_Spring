@@ -17,3 +17,12 @@ $(document).ready(function () {
         }
     });
 });
+
+/*navbar item foucs colour*/
+$(document).ready(function () {
+    $('.nav-link').hover(function () {
+        $('.nav-link').removeClass('active');
+
+        $(this).addClass('active');
+    });
+});

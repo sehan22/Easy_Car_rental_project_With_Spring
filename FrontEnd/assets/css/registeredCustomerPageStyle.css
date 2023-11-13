@@ -27,3 +27,9 @@
     background-color: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
 }
+
+li > a.active {
+    border-bottom: 3px solid white;
+    padding-bottom: 3px;
+    display: inline-block;
+}
