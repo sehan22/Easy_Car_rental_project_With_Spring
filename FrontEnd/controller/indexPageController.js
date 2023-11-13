@@ -6,11 +6,8 @@ $(document).ready(function () {
     });
 
     $(document).mouseup(function (e) {
-        var popupContainer = $("#login");
-        if (!popupContainer.is(e.target) && popupContainer.has(e.target).length === 0) {
-            $('.loginFormContainerPopUp').toggleClass("visually-hidden");
-            $('.header').css('display', '');
-        }
+        $('.loginFormContainerPopUp').toggleClass("visually-hidden");
+        $('.header').css('display', '');
     });
 
 
@@ -26,9 +23,31 @@ $(document).ready(function () {
     });
 });
 
-$('#lnlSignUpTextStyle').click(function () {
+$(document).ready(function () {
+    $('#lnlSignUpTextStyle').click(function () {
+        $('#containerFluidCustomerForm').removeClass("visually-hidden");
+        $('.loginFormContainerPopUp').toggleClass("visually-hidden");
+    });
 
+    $(document).mouseup(function (e) {
+        $('.containerFluidCustomerForm').toggleClass("visually-hidden");
+        $('.header').css('display', '');
+    });
+
+    // Handle click inside loginFormContainerPopUp
+    $('#containerFluidCustomerForm').click(function (e) {
+        alert("loku Container eka")
+        e.stopPropagation();
+    });
+
+    // Handle click inside loginFormContainer
+    $('#containerCustomerForm').click(function () {
+        alert("podi Container eka")
+        $('.loginFormContainerPopUp').removeClass("visually-hidden");
+        $('.header').css('display', 'none');
+    });
 });
+
 
 /*add blur effect to nav bar*/
 $(document).ready(function () {
