@@ -5,7 +5,7 @@ $(document).ready(function () {
         $('.header').css('display', 'none');
     });
 
-    $(document).mouseup(function (e) {
+    $('.loginFormContainerPopUp').mouseup(function (e) {
         $('.loginFormContainerPopUp').toggleClass("visually-hidden");
         $('.header').css('display', '');
     });
@@ -26,24 +26,21 @@ $(document).ready(function () {
 $(document).ready(function () {
     $('#lnlSignUpTextStyle').click(function () {
         $('#containerFluidCustomerForm').removeClass("visually-hidden");
-        $('.loginFormContainerPopUp').toggleClass("visually-hidden");
     });
 
-    $(document).mouseup(function (e) {
-        $('.containerFluidCustomerForm').toggleClass("visually-hidden");
-        $('.header').css('display', '');
+    $('#containerFluidCustomerForm').mouseup(function (e) {
+        $('#containerFluidCustomerForm').toggleClass("visually-hidden");
+        $('.header').css('display', 'none');
     });
 
     // Handle click inside loginFormContainerPopUp
     $('#containerFluidCustomerForm').click(function (e) {
-        alert("loku Container eka")
         e.stopPropagation();
     });
 
     // Handle click inside loginFormContainer
     $('#containerCustomerForm').click(function () {
-        alert("podi Container eka")
-        $('.loginFormContainerPopUp').removeClass("visually-hidden");
+        $('#containerFluidCustomerForm').removeClass("visually-hidden");
         $('.header').css('display', 'none');
     });
 });
