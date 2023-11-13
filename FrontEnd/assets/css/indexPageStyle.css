@@ -23,14 +23,15 @@
     color: #FFF;
     font-size: 18px;
     letter-spacing: 1.2px;
-
     border-radius: 15px;
-    background: linear-gradient(180deg, #26242E 0%, #2D283D 100%);
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(100px);
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.20);
 }
 
 #btnSignInOrSignUp:hover {
-    background: linear-gradient(180deg, #2f2c38 0%, #2D283D 100%);
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
 }
 
 .imgBannerCar {
