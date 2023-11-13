@@ -408,4 +408,49 @@
 }
 
 
-/*footer*/
+/*Footer*/
+.footer {
+    margin-top: 150px;
+}
+
+.footerCompanyName {
+    color: #D1D7E0;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footerDetailsList img,
+.footerDetailsList h4 {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.footerDetailsList li {
+    list-style-type: none;
+}
+
+.footerDetailsList img {
+    width: 5%;
+    text-align: center;
+}
+
+.footerDetailsList h4 {
+    color: #D1D7E0;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 1.2px;
+}
+
+.footerDetailsSocialMediaList li {
+    list-style-type: none;
+    font-size: 30px;
+    display: inline-block;
+    margin-right: 15px;
+}
