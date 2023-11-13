@@ -26,6 +26,10 @@ $(document).ready(function () {
     });
 });
 
+$('#lnlSignUpTextStyle').click(function () {
+
+});
+
 /*add blur effect to nav bar*/
 $(document).ready(function () {
     $(window).scroll(function () {

@@ -471,3 +471,12 @@
     left: 0;
     width: 100%;
 }
+
+#containerFluidCustomerForm {
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(50px);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
