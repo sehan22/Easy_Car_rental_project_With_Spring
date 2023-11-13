@@ -6,15 +6,8 @@ $(document).ready(function () {
     });
 
     $('.loginFormContainerPopUp').mouseup(function (e) {
-        /*        $('.loginFormContainerPopUp').toggleClass("visually-hidden");
-                $('.header').css('display', '');*/
-        $('.loginFormContainerPopUp').fadeOut(300, function () {
-            $('.loginFormContainerPopUp').toggleClass("visually-hidden");
-        });
-
-        $('.loginFormContainerPopUp').fadeIn(1, function () {
-            $('.header').css('display', '');
-        });
+        $('.loginFormContainerPopUp').toggleClass("visually-hidden");
+        $('.header').css('display', '');
     });
 
 
@@ -99,6 +92,7 @@ $(document).ready(function () {
         }
     }
 });
+
 
 /*handleItemClick()
 
