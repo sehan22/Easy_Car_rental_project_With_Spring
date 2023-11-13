@@ -238,10 +238,14 @@
     letter-spacing: 1.8px;
 }
 
+.rating {
+    margin-top: -6px;
+}
+
 .rating h6 {
     color: #2D283D;
     font-family: Roboto;
-    font-size: 12px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
@@ -257,7 +261,7 @@
 .rating:not(:checked) > label {
     float: left;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 20px;
     color: #666666;
 }
 
@@ -290,6 +294,33 @@
     color: #9243c4;
 }*/
 
+.otherCarDetails ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.otherCarDetails > div > ul > li > h6 {
+    margin: 0;
+    color: #3F2653;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.4px;
+}
+
+.otherCarDetails > div > ul > li > h5 {
+    text-align: center;
+    color: #2D283D;
+    font-family: Smooch Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.32px;
+}
 
 
 
