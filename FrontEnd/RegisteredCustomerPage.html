@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/commonStyle.css">
     <link rel="stylesheet" href="assets/css/LoginPageStyle.css">
     <link rel="stylesheet" href="assets/css/CustomerSignUpFormPageStyle.css">
+    <link rel="stylesheet" href="assets/css/registeredCustomerPageStyle.css">
 
     <!--Link FontAwesome-->
     <link href="assets/fontAwesome/css/all.min.css" rel="stylesheet"/>
@@ -51,12 +52,26 @@
                     </li>
                 </ul>
                 <form class="d-flex">
-                    <button class="btn text-light" id="btnSignInOrSignUp" type="button">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 50 50" fill="none">
-                            <path d="M35.868 40.2756C33.1977 37.2933 29.318 35.4167 25 35.4167C20.682 35.4167 16.8019 37.2933 14.1317 40.2756M25 43.75C14.6447 43.75 6.25 35.3553 6.25 25C6.25 14.6447 14.6447 6.25 25 6.25C35.3553 6.25 43.75 14.6447 43.75 25C43.75 35.3553 35.3553 43.75 25 43.75ZM25 29.1667C21.5482 29.1667 18.75 26.3684 18.75 22.9167C18.75 19.4649 21.5482 16.6667 25 16.6667C28.4518 16.6667 31.25 19.4649 31.25 22.9167C31.25 26.3684 28.4518 29.1667 25 29.1667Z"
-                                  stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <button class="btn text-light" id="btnCart">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+                            <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <style>svg {
+                                fill: #ffffff
+                            }</style>
+                            <path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/>
                         </svg>
-                        Sign-In | Sign-Up
+                    </button>
+
+                    <button class="btn text-light ms-2 m-auto" id="btnSignInOrSignUp" type="button">Sehan21</button>
+
+                    <button class="btn text-light ms-2 m-auto" id="btnUserAccountSetting" type="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+                            <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <style>svg {
+                                fill: #ffffff
+                            }</style>
+                            <path d="M224 0a128 128 0 1 1 0 256A128 128 0 1 1 224 0zM178.3 304h91.4c11.8 0 23.4 1.2 34.5 3.3c-2.1 18.5 7.4 35.6 21.8 44.8c-16.6 10.6-26.7 31.6-20 53.3c4 12.9 9.4 25.5 16.4 37.6s15.2 23.1 24.4 33c15.7 16.9 39.6 18.4 57.2 8.7v.9c0 9.2 2.7 18.5 7.9 26.3H29.7C13.3 512 0 498.7 0 482.3C0 383.8 79.8 304 178.3 304zM436 218.2c0-7 4.5-13.3 11.3-14.8c10.5-2.4 21.5-3.7 32.7-3.7s22.2 1.3 32.7 3.7c6.8 1.5 11.3 7.8 11.3 14.8v30.6c7.9 3.4 15.4 7.7 22.3 12.8l24.9-14.3c6.1-3.5 13.7-2.7 18.5 2.4c7.6 8.1 14.3 17.2 20.1 27.2s10.3 20.4 13.5 31c2.1 6.7-1.1 13.7-7.2 17.2l-25 14.4c.4 4 .7 8.1 .7 12.3s-.2 8.2-.7 12.3l25 14.4c6.1 3.5 9.2 10.5 7.2 17.2c-3.3 10.6-7.8 21-13.5 31s-12.5 19.1-20.1 27.2c-4.8 5.1-12.5 5.9-18.5 2.4l-24.9-14.3c-6.9 5.1-14.3 9.4-22.3 12.8l0 30.6c0 7-4.5 13.3-11.3 14.8c-10.5 2.4-21.5 3.7-32.7 3.7s-22.2-1.3-32.7-3.7c-6.8-1.5-11.3-7.8-11.3-14.8V454.8c-8-3.4-15.6-7.7-22.5-12.9l-24.7 14.3c-6.1 3.5-13.7 2.7-18.5-2.4c-7.6-8.1-14.3-17.2-20.1-27.2s-10.3-20.4-13.5-31c-2.1-6.7 1.1-13.7 7.2-17.2l24.8-14.3c-.4-4.1-.7-8.2-.7-12.4s.2-8.3 .7-12.4L343.8 325c-6.1-3.5-9.2-10.5-7.2-17.2c3.3-10.6 7.7-21 13.5-31s12.5-19.1 20.1-27.2c4.8-5.1 12.4-5.9 18.5-2.4l24.8 14.3c6.9-5.1 14.5-9.4 22.5-12.9V218.2zm92.1 133.5a48.1 48.1 0 1 0 -96.1 0 48.1 48.1 0 1 0 96.1 0z"/>
+                        </svg>
                     </button>
                 </form>
             </div>
@@ -65,67 +80,7 @@
 </header>
 
 <main>
-    <!--Login Pop-Up-->
-    <div class="container-fluid w-100 h-100 position-fixed z-1 mt-0 pt-3 visually-hidden loginFormContainerPopUp">
-        <div class="container w-100 mt-5 p-5">
-            <div class="row justify-content-center rounded-4 m-auto loginFormContainer">
-                <div class="col-lg-6 rounded-start-4 leftSideContainer">
-                    <div class="ms-3 mt-4 pt-2">
-                        <h3 id="easyCarTextStyle">Easy Car</h3>
-                        <h3 id="rentalPvtLtdStyle">Rental Pvt Ltd.</h3>
-
-                        <h6 class="withOurTextStyle">with Our <b>Hassle-Free</b></h6>
-                        <h6 class="carRentalTextStyle">Car Rentals</h6>
-                    </div>
-
-                    <img id="jeepImg" src="assets/images/loginpage/jeepwhite.png" alt="whiteOffRoadVehicle">
-                </div>
-
-                <div class="col-lg-6 rounded-end-4 text-center rightSideContainer bg-light-subtle m-auto">
-                    <div class="d-flex flex-column align-items-center mt-5 ms-4 pt-1">
-                        <h1 id="welcomeBackFontStyle">WELCOME BACK</h1>
-                        <h6 id="shortDescriptionTextStyle">"Seamless access to your journey begins here.
-                            Log in to your car rental account and hit
-                            the road with ease!"
-                        </h6>
-
-                        <form class="mt-3">
-                            <div class="row justify-content-center">
-                                <label></label>
-                                <input class="loginInput form-control" type="text" name="" placeholder="UserName">
-                            </div>
-
-                            <div class="row justify-content-center">
-                                <label></label>
-                                <input class="loginInput form-control mt-4" type="password" name=""
-                                       placeholder="Password">
-                            </div>
-
-                            <h6 class="mt-1 text-start" id="forgotPasswordTextStyle"><a href="#">Forgot Your
-                                Password?</a></h6>
-
-                            <button class="btn mt-2 text-light" id="btnSignIn" type="button">Sign-In</button>
-
-                            <h6 class="underButtonTextStyle mt-2">Or,</h6>
-                            <h6 class="underButtonText2Style" id="signUpDescriptionTextStyle">Start your journey with
-                                us.</h6>
-                            <a href="#" class="underButtonTextStyle" id="lnlSignUpTextStyle"><b>Sign-Up</b></a>
-
-                            <div id="socialIcons">
-                                <a class="rounded-5" href="#"><img src="assets/images/loginpage/GitHub.png" alt=""></a>
-                                <a class="ms-2 me-2 rounded-5" href="#"><img src="assets/images/loginpage/Linkedin.png"
-                                                                             alt=""></a>
-                                <a class="rounded-5" href="#"><img src="assets/images/loginpage/Whatsapp.png"
-                                                                   alt=""></a>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--Customer RegistrationForm Pop-Up-->
+    <!--Customer Information Pop-Up-->
     <div class="container-fluid position-fixed z-1 visually-hidden" id="containerFluidCustomerForm">
         <div class="container rounded-2 m-auto bg-light" id="containerCustomerForm">
             <form class="row ps-4 pt-3 pb-3 pe-4 h-100 rounded-3">
@@ -1147,6 +1102,6 @@
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-<script src="controller/indexPageController.js"></script>
+<script src="controller/RegisteredCustomerPageController.js"></script>
 </body>
 </html>
