@@ -192,7 +192,6 @@
 
 
 /*carDescriptionContainer*/
-
 #carDescriptionContainer {
     height: 25vh;
 }
@@ -340,7 +339,7 @@
 .otherCarDetailsTwo > div > h6 {
     color: #2D283D;
     font-family: Roboto;
-    font-size: 10px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -348,19 +347,9 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /*about us*/
 .aboutUsContainer {
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .aboutTopicTxt {
@@ -395,12 +384,16 @@
 }
 
 .aboutDescriptionTxtList li {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.aboutDescriptionTxtList li img {
+    margin-right: 5px;
 }
 
 .aboutDescriptionTxtSocialMediaList li {
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .aboutDescriptionTxtSocialMediaList i {
@@ -413,3 +406,6 @@
     background: linear-gradient(90deg, #26242E 0%, #552873 51.04%, #26242E 100%);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
+
+
+/*footer*/
