@@ -6,8 +6,15 @@ $(document).ready(function () {
     });
 
     $('.loginFormContainerPopUp').mouseup(function (e) {
-        $('.loginFormContainerPopUp').toggleClass("visually-hidden");
-        $('.header').css('display', '');
+        /*        $('.loginFormContainerPopUp').toggleClass("visually-hidden");
+                $('.header').css('display', '');*/
+        $('.loginFormContainerPopUp').fadeOut(300, function () {
+            $('.loginFormContainerPopUp').toggleClass("visually-hidden");
+        });
+
+        $('.loginFormContainerPopUp').fadeIn(1, function () {
+            $('.header').css('display', '');
+        });
     });
 
 
@@ -22,10 +29,10 @@ $(document).ready(function () {
         $('.header').css('display', 'none');
     });
 });
-
 $(document).ready(function () {
     $('#lnlSignUpTextStyle').click(function () {
         $('#containerFluidCustomerForm').removeClass("visually-hidden");
+        $('.loginFormContainerPopUp').toggleClass("visually-hidden");
     });
 
     $('#containerFluidCustomerForm').mouseup(function (e) {
@@ -45,6 +52,59 @@ $(document).ready(function () {
     });
 });
 
+
+/*Customer Registration Upload Img Preview*/
+$(document).ready(function () {
+    $('#nicImg').change(handleFileSelect);
+
+    function handleFileSelect(event) {
+        const fileInput = event.target;
+        const file = fileInput.files[0];
+
+        if (file.type === 'image/png' || file.type === 'image/jpeg' || file.type === 'image/jpg') {
+            let imageURL = URL.createObjectURL(file);
+            $('#nicImgView').css({
+                'background-image': `url('${imageURL}')`,
+                'background-size': 'contain',
+                'background-repeat': 'no-repeat',
+                'background-position': 'center center'
+            });
+
+            /*                $('#nicIcon path').attr('fill', '#FFFFFF');
+                            $('#nicImgDescription').css('color', 'white');*/
+        } else {
+            alert("Selected file type doesn't support!")
+        }
+    }
+});
+$(document).ready(function () {
+    $('#licenseImg').change(handleFileSelect);
+
+    function handleFileSelect(event) {
+        const fileInput = event.target;
+        const file = fileInput.files[0];
+
+        if (file.type === 'image/png' || file.type === 'image/jpeg' || file.type === 'image/jpg') {
+            let imageURL = URL.createObjectURL(file);
+            $('#licenseImgView').css({
+                'background-image': `url('${imageURL}')`,
+                'background-size': 'contain',
+                'background-repeat': 'no-repeat',
+                'background-position': 'center center'
+            });
+            /*$('#licenseIcon path').attr('fill', '#FFFFFF');
+            $('#licenseImgDescription').css('color', 'white');*/
+        } else {
+            alert("Selected file type doesn't support!")
+        }
+    }
+});
+
+/*handleItemClick()
+
+function handleItemClick(item) {
+    $('.dropdown-toggle').text(item);
+}*/
 
 /*add blur effect to nav bar*/
 $(document).ready(function () {

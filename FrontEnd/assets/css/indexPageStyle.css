@@ -463,7 +463,7 @@
 }
 
 
-/*LoginForm PopUp*/
+/*LoginForm Pop-Up*/
 .loginFormContainerPopUp {
     background-color: rgba(0, 0, 0, 0);
     backdrop-filter: blur(50px);
@@ -472,6 +472,7 @@
     width: 100%;
 }
 
+/*Customer RegForm Pop-Up*/
 #containerFluidCustomerForm {
     background-color: rgba(0, 0, 0, 0);
     backdrop-filter: blur(50px);
