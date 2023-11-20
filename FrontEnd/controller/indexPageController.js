@@ -119,3 +119,14 @@ $(document).ready(function () {
         }
     });
 });
+
+$('#btnFindACar').click(function () {
+    Swal.fire({
+        title: "Custom width, padding, color, background.",
+        width: 600,
+        padding: "3em",
+        color: "#716add",
+        backgroundColor: "rgba(0, 0, 0, 0)",
+        backdropFilter: "blur(50px)"
+    });
+});
